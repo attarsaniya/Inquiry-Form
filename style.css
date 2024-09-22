@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    background-color:#D8D2C2;
+    
+}
+
+
+h1{
+    margin-top: auto;
+    padding-top: 20px;
+    color:black;
+    background-color:#B17457;
+    height: 70px;
+    width: auto;
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    
+   
+}
+.info{
+
+   text-align: left;
+   padding-bottom: 20px;
+   font-weight:bold;
+  margin-right: 20px;
+   margin:10px 10px 30px 20px;
+   line-height: 50px;
+   font-size: 1.2rem;
+}
+
+.choose{
+    margin-left: 20px;
+    padding-left: 10%;
+    line-height: 30px;
+    
+}
+.setleft{
+    width: 40%;
+    float: left;
+    font-size: 1.2rem;
+   
+}
+.setright{
+    width: 40% ;
+    margin:0 auto;
+    font-size: 1.2rem;
+}
+
+button{
+    
+    display: inline;
+    background:rgb(5, 5, 50);
+    color: beige;
+    margin-top:30px ;
+    margin-left: 33%;
+    padding: 8px 25px 8px 25px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+p{
+    padding-left: 0px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+input[type="text"]{
+    padding-right: 15px;
+    width: 20%;
+    height: 25px;
+    font-size: 15px;
+    background-color: azure;
+}
+input[type="email"]{
+    height: 25px;
+    width: 25%;
+    font-size: 15px;
+    background-color: azure;
+}
+select{
+    height: 25px;
+    width: 25%;
+    border-color: black;
+    background-color: azure;
+}
+input[type="tel"]{
+    padding-right: 15px;
+    width: 20%;
+    height: 25px;
+    font-size: 15px;
+    background-color: azure;
+}
