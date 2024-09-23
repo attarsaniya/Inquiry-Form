@@ -2,28 +2,46 @@
     padding: 0px;
     margin: 0px;
     color: black;
+    
     background-color:#D8D2C2;
     
 }
-
+.navbar{
+    background-color: #451904;
+    text-align: end;
+}
+.a{
+   color: rgb(7, 7, 50);
+    text-decoration: none;
+    margin-left: 50px;
+    padding-right: 20px;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 900;
+    
+}
 
 h1{
     margin-top: auto;
-    padding-top: 20px;
-    color:black;
-    background-color:#B17457;
+    padding-top: 20px ;
+    color:#D8D2C2;
+    background-color:#451904;
     height: 70px;
     width: auto;
     text-align: center;
+   
     
 }
 
 h2{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     font-size: 30px;
     text-decoration: underline;
+    line-height: 100px;
+    font-size: xx-large;
     
    
 }
@@ -58,7 +76,7 @@ h2{
 
 button{
     
-    display: inline;
+   
     background:rgb(5, 5, 50);
     color: beige;
     margin-top:30px ;
@@ -66,6 +84,7 @@ button{
     padding: 8px 25px 8px 25px;
     border-radius: 20px;
     text-align: center;
+    font-weight: bold;
     
 }
 p{
@@ -80,18 +99,21 @@ input[type="text"]{
     height: 25px;
     font-size: 15px;
     background-color: azure;
+    border-radius: 5px;
 }
 input[type="email"]{
     height: 25px;
     width: 25%;
     font-size: 15px;
     background-color: azure;
+    border-radius: 5px;
 }
 select{
     height: 25px;
     width: 25%;
     border-color: black;
     background-color: azure;
+    border-radius: 5px;
 }
 input[type="tel"]{
     padding-right: 15px;
@@ -99,4 +121,27 @@ input[type="tel"]{
     height: 25px;
     font-size: 15px;
     background-color: azure;
+    border-radius: 5px;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: #451904;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 40px;
+    
+}
+footer>p{
+    height: 120px;
+    width: 80%;
+    margin-left: 20px;
+    padding-top: 5px;
+    margin-left: 120px;
+    text-align: center;
+    background-color:#451904; 
+    color:wheat ;
+    line-height: 30px;
+   
 }
